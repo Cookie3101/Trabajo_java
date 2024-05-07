@@ -1,9 +1,11 @@
+import java.sql.SQLOutput;
+
 public class Persona {
     private String Nombre;
     private int Edad;
     private String FechaNacimiento;
 
-    
+
     public String getNombre() {
         return Nombre;
     }
@@ -17,7 +19,13 @@ public class Persona {
     }
 
     public void setEdad(int edad) {
-        Edad = edad;
+     if (edad >0){
+         System.out.println("Cada vez mas viejo");
+         Edad = edad;
+     }
+     else {
+         System.out.println("El numero ingresado no es valido");
+     }
     }
 
     public String getFechaNacimiento() {
@@ -27,5 +35,6 @@ public class Persona {
     public void setFechaNacimiento(String fechaNacimiento) {
         FechaNacimiento = fechaNacimiento;
     }
+
 }
 
