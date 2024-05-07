@@ -1,9 +1,11 @@
 import java.sql.SQLOutput;
 
-public class Persona {
+public class Persona{
     private String Nombre;
     private int Edad;
     private int FechaNacimiento;
+
+
 
     public Persona(String nombre, int edad, int fechaNacimiento) {
     }

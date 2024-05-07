@@ -1,5 +1,10 @@
-public class Estudiante extends Persona{
+public class Estudiante extends Persona implements Trabajador{
     private int Grado;
+
+    @Override
+    public void realizarTarea() {
+        System.out.println("Realizando tarea escolar");
+    }
 
     @Override
     public String toString() {
