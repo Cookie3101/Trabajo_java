@@ -4,4 +4,6 @@ public class Empleado implements Trabajador{
         System.out.println("Realizando tarea laboral");
     }
 
+
+
 }

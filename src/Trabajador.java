@@ -1,4 +1,6 @@
 public interface Trabajador {
-        void realizarTarea();
+        void realizarTarea ();
+
+
     }
 

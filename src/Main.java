@@ -6,5 +6,9 @@ public class Main {
         persona1.setEdad(20);
         persona1.calcularFechaNacimiento();
         System.out.println(persona1.toString());
+
+        Trabajador empleado= () -> System.out.println("otra cosa");
+
+        empleado.realizarTarea();
     }
 }
