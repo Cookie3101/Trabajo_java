@@ -3,7 +3,7 @@ import java.sql.SQLOutput;
 public class Persona {
     private String Nombre;
     private int Edad;
-    private String FechaNacimiento;
+    private int FechaNacimiento;
 
 
     public String getNombre() {
@@ -28,12 +28,16 @@ public class Persona {
      }
     }
 
-    public String getFechaNacimiento() {
+    public int getFechaNacimiento() {
         return FechaNacimiento;
     }
 
-    public void setFechaNacimiento(String fechaNacimiento) {
+    public void setFechaNacimiento(int fechaNacimiento) {
         FechaNacimiento = fechaNacimiento;
+    }
+
+    public void calcularFechaNacimiento(){
+     FechaNacimiento = 2024 - Edad;
     }
 
 }
