@@ -5,6 +5,6 @@ public class Main {
         persona1.setNombre("Dahiana");
         persona1.setEdad(20);
         persona1.calcularFechaNacimiento();
-        System.out.println(persona1.getFechaNacimiento());
+        System.out.println(persona1.toString());
     }
 }
