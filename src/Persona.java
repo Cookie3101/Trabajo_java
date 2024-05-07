@@ -5,6 +5,8 @@ public class Persona {
     private int Edad;
     private int FechaNacimiento;
 
+    public Persona(String nombre, int edad, int fechaNacimiento) {
+    }
 
     public String getNombre() {
         return Nombre;
